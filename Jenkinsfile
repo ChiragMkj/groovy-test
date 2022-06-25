@@ -16,7 +16,7 @@ mavenJob('Jenkins Tutorial Demo - Library 1 (DSL)') {
     scm {
         git {
             remote {
-                url 'git@gitlab.com:SvenWoltmann/jenkins-tutorial-demo.git'
+                url 'https://github.com/ChiragMkj/groovy-test.git'
             }
 
             branch '$Branch'
