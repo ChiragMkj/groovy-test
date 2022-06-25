@@ -9,7 +9,7 @@ mavenJob('Jenkins Tutorial Demo - Library 1 (DSL)') {
         gitParam('Branch') {
             description 'The Git branch to checkout'
             type 'BRANCH'
-            defaultValue 'origin/master'
+            defaultValue 'origin/develop'
         }
     }
 
